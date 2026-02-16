@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "帮助中心 - NextTV",
-  description: "NextTV 帮助中心，了解如何使用 NextTV 的各项功能",
+  title: "帮助中心",
+  description: "帮助中心",
 };
 
 function Section({ id, number, title, children }) {
@@ -30,7 +30,7 @@ export default function HelpPage() {
       {/* Header */}
       <div className="text-center mt-8 mb-10">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">帮助中心</h1>
-        <p className="text-gray-500 text-lg max-w-2xl mx-auto">了解 NextTV 的核心功能与使用方法</p>
+        <p className="text-gray-500 text-lg max-w-2xl mx-auto">了解核心功能与使用方法</p>
       </div>
 
       {/* Navigation */}
